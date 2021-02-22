@@ -8,11 +8,9 @@
 <html data-ng-app="AltaClienteRole" data-ng-controller="controllerClienteRole">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Hernan Grcía Valladares">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <meta name="author" content="Hernan García Valladares">
     <title>Página del Administrador</title>
-
     <!-- Importamos las librerias de Java-Core y JSP-->
     <%@ include file="/WEB-INF/Contenido-WEB/Recursos-Web/include.jsp" %>
     <%@ include file="/WEB-INF/Contenido-WEB/Recursos-Web/bootstrap.jsp" %>
@@ -43,8 +41,6 @@
 
 </head>
 <body>
-
-<!-- LLamo el menu Logout y barra principal de ecabezado de Admin -->
 <jsp:include page="../Recursos-Web/NavarLogout.jsp"></jsp:include>
 
 <div class="container-fluid">
