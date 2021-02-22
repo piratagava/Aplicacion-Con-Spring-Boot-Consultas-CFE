@@ -61,7 +61,6 @@ public class ClienteController {
 		}
 	}
 
-	// @ResponseBody es importante ya que si no pues no regresa nada jajaja
 	@GetMapping(value = LISTA_ALL_CLIENTE)
 	public @ResponseBody List<Cliente> listarClientes() throws ClienteException {
 		try {
